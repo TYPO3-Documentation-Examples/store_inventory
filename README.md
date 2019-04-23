@@ -1,6 +1,6 @@
 # TYPO3 Example Extension store_location
 
-This TYPO3 extension is for the Extbase dokumentation located at
+This TYPO3 extension is for the Extbase documentation located at
 
 [https://docs.typo3.org/typo3cms/ExtbaseFluidBook/4-FirstExtension/Index.html](https://docs.typo3.org/typo3cms/ExtbaseFluidBook/4-FirstExtension/Index.html)
  
