@@ -1,6 +1,6 @@
 <?php
 
-namespace MyVendor\StoreInventory\Domain\Model;
+namespace T3docs\StoreInventory\Domain\Model;
 
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 

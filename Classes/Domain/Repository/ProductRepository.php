@@ -1,11 +1,11 @@
 <?php
 
-namespace MyVendor\StoreInventory\Domain\Repository;
+namespace T3docs\StoreInventory\Domain\Repository;
 
 /**
  * Class ProductRepository
  *
- * @package MyVendor\StoreInventory\Domain\Repository
+ * @package T3docs\StoreInventory\Domain\Repository
  */
 class ProductRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {

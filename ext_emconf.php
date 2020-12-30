@@ -12,12 +12,12 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '0.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-8.9.99',
+            'typo3' => '0.5.23-9.5.99',
         ]
     ],
     'autoload' => [
         'psr-4' => [
-            'MyVendor\\StoreInventory\\' => 'Classes'
+            'T3docs\\StoreInventory\\' => 'Classes'
         ]
     ],
 ];

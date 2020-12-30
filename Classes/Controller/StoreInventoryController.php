@@ -2,13 +2,13 @@
 
 namespace MyVendor\StoreInventory\Controller;
 
-use MyVendor\StoreInventory\Domain\Repository\ProductRepository;
+use T3docs\StoreInventory\Domain\Repository\ProductRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
  * Class StoreInventoryController
  *
- * @package MyVendor\StoreInventory\Controller
+ * @package T3docs\StoreInventory\Controller
  */
 class StoreInventoryController extends ActionController
 {
@@ -21,7 +21,7 @@ class StoreInventoryController extends ActionController
     /**
      * Inject the product repository
      *
-     * @param \MyVendor\StoreInventory\Domain\Repository\ProductRepository $productRepository
+     * @param \T3docs\StoreInventory\Domain\Repository\ProductRepository $productRepository
      */
     public function injectProductRepository(ProductRepository $productRepository)
     {

@@ -1,0 +1,30 @@
+{
+  "name": "t3docs/store-inventory",
+  "type": "typo3-cms-extension",
+  "description": "This extension packages a number of code examples from the Core documentation.",
+  "license": [
+    "GPL-2.0+"
+  ],
+  "authors": [
+    {
+      "name": "Documentation Team",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "T3docs\\StoreInventory\\": "Classes/"
+    }
+  },
+  "require": {
+    "typo3/cms-core": "^9.5.23"
+  },
+  "replace": {
+    "typo3-ter/examples": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-9.5": "9.5.x-dev"
+    }
+  }
+}
